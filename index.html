@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triggrr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--FirstPage-Parallax-->
+    <section class="back">
+    <header>
+        <a href="#" class="logo"><img src="Images/Logo.png" alt="logo"></a>
+        <nav>
+            <li><a href="#second">Animation</a></li>
+            <li><a href="#third">Marquee</a></li>
+            <li ><a href="#fourth" class="active">Clock</a></li>
+        </nav>
+    </header>
+        <div id="title">Parallax</div>
+        <img src="Images/Clouds_back.png" id="Clouds">
+        <img src="Images/People_back.png" id="People">
+        <img src="Images/Stars_back.png" id="Stars">
+        <img src="Images/Clouds2_back.png" id="Clouds2">
+    </section>
+    <!--Animations and Texts-->
+    <section class="second" id="second">
+        <div class="image">
+            <img src="Images/Haunted_house.png" id="house">
+            <img src="Images/crow_house.png" id="crow">
+        </div>
+        <div class="text">
+            <h2>Animations</h2>
+            <p> CSS animations allow you to create dynamic and interactive effects on elements within your web page. With CSS animations, you can animate properties such as position, size, color, opacity, and more to create visually appealing and engaging experiences for your users.</p>
+            <h4>Concepts</h4>
+            <ul>
+                <li>animation-name</li>
+                <li>animation-duration</li>
+                <li>animation-timing-function</li>
+                <li>animation-delay</li>
+                <li>animation-iteration-count</li>
+                <li>animation-direrction</li>
+                <li>animation-fill-mode</li>
+                <li>animation-play-state</li>
+            </ul>
+        </div>
+    </section>
+    <!--Marquee the boxes-->
+    <section class="marquee" id="third">
+        <h2>Resources</h2>
+        <div class="pause"><div class="content">
+            <div class="item">
+                <img src="Images/YouTube_logo.png">
+                <h4>Youtube</h4>
+                <a href="https://www.youtube.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/codepen_logo.png">
+                <h4>Codepen</h4>
+                <a href="https://codepen.io/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Chatgpt_logo.png">
+                <h4>ChatGPT</h4>
+                <a href="https://chat.openai.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/W3_logo.png">
+                <h4>W3Schools</h4>
+                <a href="https://www.w3schools.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/MDN_logo.png">
+                <h4>MDN</h4>
+                <a href="https://developer.mozilla.org/en-US/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Figma_logo.png">
+                <h4>Figma</h4>
+                <a href=""><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Freepik_logo.png">
+                <h4>Freepik</h4>
+                <a href="https://www.freepik.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Unsplash_logo.png">
+                <h4>Unsplash</h4>
+                <a href="https://unsplash.com/"><div class="btn">Click here</div></a>
+            </div>
+
+            <div class="item">
+                <img src="Images/YouTube_logo.png">
+                <h4>Youtube</h4>
+                <a href="https://www.youtube.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/codepen_logo.png">
+                <h4>Codepen</h4>
+                <a href="https://codepen.io/"></a><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Chatgpt_logo.png">
+                <h4>ChatGPT</h4>
+                <a href="https://chat.openai.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/W3_logo.png">
+                <h4>W3Schools</h4>
+                <a href="https://www.w3schools.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/MDN_logo.png">
+                <h4>MDN</h4>
+                <a href="https://developer.mozilla.org/en-US/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Figma_logo.png">
+                <h4>Figma</h4>
+                <a href=""><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Freepik_logo.png">
+                <h4>Freepik</h4>
+                <a href="https://www.freepik.com/"><div class="btn">Click here</div></a>
+            </div>
+            <div class="item">
+                <img src="Images/Unsplash_logo.png">
+                <h4>Unsplash</h4>
+                <a href="https://unsplash.com/"><div class="btn">Click here</div></a>
+            </div>
+        </div></div>
+    </section>
+    <!--Clock-->
+    <section class="fourth" id="fourth">
+        <div class="btn-class">
+            <h2>TimeZones</h2>
+            <div class="item"><h4>India</h4><div class="btn" id="India" onclick="forTime('India')">Time</div></div>
+            <div class="item"><h4>New York</h4><div class="btn" id="NYC" onclick="forTime('NYC')">Time</div></div>
+            <div class="item"><h4>Sydney</h4><div class="btn" id="Sydney" onclick="forTime('Sydney')">Time</div></div>
+        </div>
+    </section>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
